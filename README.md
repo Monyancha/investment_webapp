@@ -1,7 +1,7 @@
-OpenSourceBilling
+Investiment Web App
 ===================
 
-[OpenSourceBilling](http://opensourcebilling.org/) is a simple web application to create and send invoices, receive payments, manage clients and companies. It generates reports of Item sales, payments, and collected revenues. It supports multi languages and multi currencies. This application is developed in Ruby on Rails v4.2.7.1. and Ruby v2.3.7. This document describes OSB application setup on Ubuntu 14.04 LTS machine.
+[Investment Web App] is a simple web application to donate, receive payments, manage clients and companies. It generates reports of Item sales, payments, and collected revenues. It supports multi languages and multi currencies. This application is developed in Ruby on Rails v4.2.7.1. and Ruby v2.3.7. This document describes OSB application setup on Ubuntu 14.04 LTS machine.
 
 Features
 ---------
@@ -23,9 +23,7 @@ Features
 * Generate invoice from project log hours
 * Manage billing for your multiple sister companies under one account
 * Import data from Freshbooks and QuickBooks
-* Reports like `Payments Collected`, `Aged Accounts Receivable`, `Revenue By Client`, `Items Sales` and more to come
-
-Try [Demo](http://demo.opensourcebilling.org) here
+* Reports like `Payments Collected`, `Aged Accounts Receivable`, `Revenue By Client`, `Items Sales` and more to come.
 
 Caveats
 -------
@@ -77,7 +75,7 @@ Bundler is a tool that allows you to install multiple gem versions, run this com
 #### 3.1 Clone Application Code
 To clone project code from GitHub, give your GitHub account credential for authentication while cloning project.
     
-    git clone https://github.com/vteams/open-source-billing
+    git clone https://github.com/Monyancha/investment_webapp
 
 
 #### 3.2 Navigate to Project Directory
@@ -179,12 +177,3 @@ Contributing
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-awesome-feature`)
 5. Create new Pull Request
-
-Contact Information
--------------------
-Mia Mian
-+1 (858) 586 7777
-
-E-mail: <mia@presstgers.com> | <fahad@presstigers.com> | <support@opensourcebilling.org>
-
-Homepage: <http://www.opensourcebilling.org/>
